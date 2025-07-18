@@ -49,7 +49,7 @@ export default function Iletisim() {
   rel="noopener noreferrer"
   aria-label="WhatsApp ile iletişime geçin"
 >
-  <Image
+  <img
     src="/whatsapp-icon.svg"
     alt="WhatsApp"
     className={styles.whatsappIcon}
