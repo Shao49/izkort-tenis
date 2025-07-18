@@ -1,0 +1,114 @@
+.contactSection {
+    background-color: #0a0a0a;
+    color: #fff;
+    padding: 100px 20px;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .baslik {
+    font-size: 2.8rem;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #444;
+    display: inline-block;
+    padding-bottom: 12px;
+  }
+  
+  .infoGroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .infoBox {
+    flex: 1 1 300px;
+    background-color: #1c1c1c;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+  }
+  
+  .infoBox:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+  }
+  
+  .infoBox h2 {
+    color: #00cc99;
+    margin-bottom: 8px;
+  }
+  
+  .infoBox p {
+    color: #ddd;
+    font-size: 1rem;
+  }
+  
+  .icon {
+    font-size: 28px;
+    color: #00cc99;
+    margin-bottom: 12px;
+    transition: transform 0.3s ease;
+  }
+  
+  .infoBox:hover .icon {
+    transform: scale(1.2);
+  }
+  
+  .mapContainer {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  }
+  .whatsappButton {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 999;
+    background-color: #25d366;
+    border-radius: 50%;
+    padding: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .whatsappButton {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 999;
+    background-color: #25d366;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .whatsappButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .whatsappIcon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .whatsappText {
+    white-space: nowrap;
+  }
+  

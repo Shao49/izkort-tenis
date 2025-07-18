@@ -1,0 +1,66 @@
+.footer {
+    background-color: #002b45; /* stats ile aynı renk */
+    color: #eaeaea;
+    padding: 60px 30px 30px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .column {
+    flex: 1 1 250px;
+  }
+  
+  .column h3,
+  .column h4 {
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  
+  .column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .column li {
+    margin-bottom: 10px;
+  }
+  
+  .column a {
+    color: #eaeaea;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .column a:hover {
+    color: #ffffff;
+  }
+  
+  .icon {
+    display: inline-block;
+    margin-top: 10px;
+    color: #eaeaea;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2);
+    color: #ffffff;
+  }
+  
+  .bottom {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #2a4d6a;
+    padding-top: 15px;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
