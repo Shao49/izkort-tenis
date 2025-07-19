@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url('/slider2.jpg'); /* görseli /public içine ekle */
+    background-image: url('/performans.jpg'); /* görseli /public içine ekle */
     background-size: cover;
     background-position: center;
     display: flex;

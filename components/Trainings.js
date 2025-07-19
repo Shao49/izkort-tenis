@@ -15,7 +15,7 @@ const trainings = [
   {
     title: 'Performans Seviye',
     description: 'Turnuva düzeyinde yoğun antrenman.',
-    image: '/performans.jpg',
+    image: '/performans1.jpg',
   },
 ]
 

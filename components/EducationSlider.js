@@ -22,7 +22,7 @@ const slides = [
     title: 'Performans Seviyesi',
     description:
       'Profesyonel kariyer hedefleyen veya turnuvalarda başarıyı amaçlayan sporcular için yapılandırılmış bu program; fiziksel kondisyon, ileri düzey teknik beceriler, mental dayanıklılık ve strateji odaklı antrenmanları kapsar. Sporcular, birebir koçluk ve performans analizi desteği ile gelişim süreçlerini takip eder. Bu yoğun programda katılımcılar, akademik yaklaşım ve bilimsel antrenman metodlarıyla üst düzey müsabaka ortamına hazırlanır.',
-    image: '/performans.jpg',
+    image: '/performans1.jpg',
   },
 ]
 
