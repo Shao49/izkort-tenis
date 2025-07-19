@@ -2,15 +2,14 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import styles from '../styles/hakkimizda.module.css'
 
-const About = () => {
+const Hakkimizda = () => {
   return (
     <>
       <Header />
-      <section className={styles.aboutSection}>
-      <video autoPlay muted loop playsInline className={styles.videoBg}>
-  <source src="/izkort.mp4" type="video/mp4" />
-</video>
-
+      <section className={styles.heroSection}>
+        <video autoPlay muted loop playsInline className={styles.videoBg}>
+          <source src="/izkort3.mp4" type="video/mp4" />
+        </video>
         <div className={styles.overlay}>
           <div className={styles.content}>
             <h1>Hakkımızda</h1>
@@ -22,17 +21,11 @@ const About = () => {
             <p>
               Akademimiz, her yaş grubuna ve her seviyeye uygun eğitim programları ile geniş bir kitleye hitap etmektedir.
               Başlangıç seviyesinden performans düzeyine kadar tüm öğrencilerimize bireysel ilgiyle yaklaşır,
-              gelişimlerini yakından takip ederiz. Eğitmen kadromuz, ulusal ve uluslararası deneyime sahip,
-              alanında uzman, çocuk gelişimi ve spor psikolojisi bilgisiyle donatılmış antrenörlerden oluşmaktadır.
+              gelişimlerini yakından takip ederiz.
             </p>
             <p>
               Modern tesislerimiz, teknik antrenmanlara ek olarak kondisyon, koordinasyon ve mental gelişimi destekleyici
-              unsurlarla donatılmıştır. Sporcularımızın hem fiziksel hem de zihinsel olarak güçlenmesini hedefleyen
-              eğitim anlayışımız sayesinde pek çok başarıya imza attık.
-            </p>
-            <p>
-              Misyonumuz; sporu seven, etik değerlerle donanmış, özgüvenli bireyler yetiştirmek ve tenis kültürünü yaygınlaştırmaktır.
-              Bu yolculukta bizimle olan her sporcunun, hayatına değer kattığımıza inanıyor ve başarılarını gururla takip ediyoruz.
+              unsurlarla donatılmıştır.
             </p>
           </div>
         </div>
@@ -42,4 +35,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Hakkimizda

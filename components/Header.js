@@ -22,13 +22,12 @@ const Header = () => {
           </Link>
         </div>
         <nav className={`${styles.nav} ${menuOpen ? styles.open : ''}`}>
-          <Link href="/">Anasayfa</Link>
-          <Link href="/egitimler">Eğitimler</Link>
-          <Link href="/antrenorler">Antrenörler</Link>
-          <Link href="/hakkimizda">Hakkımızda</Link>
-          <Link href="/iletisim">İletişim</Link>
-          
-        </nav>
+  <Link href="/" onClick={() => setMenuOpen(false)}>Anasayfa</Link>
+  <Link href="/egitimler" onClick={() => setMenuOpen(false)}>Eğitimler</Link>
+  <Link href="/antrenorler" onClick={() => setMenuOpen(false)}>Antrenörler</Link>
+  <Link href="/hakkimizda" onClick={() => setMenuOpen(false)}>Hakkımızda</Link>
+  <Link href="/iletisim" onClick={() => setMenuOpen(false)}>İletişim</Link>
+</nav>
         <div className={styles['menu-toggle']} onClick={() => setMenuOpen(!menuOpen)}>
           ☰
         </div>
