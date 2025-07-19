@@ -10,7 +10,7 @@ const Hero = () => {
       <div className={styles.content}>
         <h1>
           <Typewriter
-            words={['İZKORT Tenis Akademi']}
+            words={['İztenis Akademi']}
             loop={false}
             cursor
             cursorStyle="|"

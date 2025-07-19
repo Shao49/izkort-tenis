@@ -14,7 +14,7 @@ const Hakkimizda = () => {
           <div className={styles.content}>
             <h2>Hakkımızda</h2>
             <p>
-              İZKORT Tenis Akademi olarak sporu yaşam tarzı haline getirmeyi hedefleyen bir anlayışla yola çıktık.
+              İztenis Akademi olarak sporu yaşam tarzı haline getirmeyi hedefleyen bir anlayışla yola çıktık.
               Kurulduğumuz ilk günden itibaren yalnızca tenis öğretmek değil, aynı zamanda spor kültürünü,
               disiplinini ve etik değerlerini genç bireylere aktarmayı ilke edindik.
             </p>

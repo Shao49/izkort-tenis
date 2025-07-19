@@ -7,8 +7,8 @@ function MyApp({ Component, pageProps }) {
     <>
       <Header />
       <Head>
-        <title>İZKORT Tenis Akademi</title>
-        <meta name="description" content="İzmir'in en köklü tenis akademisi" />
+        <title>İztenisAkademi</title>
+        <meta name="description" content="İzmir'in en köklü tenis ekibi" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />

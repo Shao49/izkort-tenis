@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.top}>
         <div className={styles.column}>
-          <h3>İZKORT Tenis Akademi</h3>
+          <h3>İZTENİS Akademi</h3>
           <p>Modern yaklaşım, güçlü altyapı,<br />profesyonel eğitim.</p>
         </div>
 
@@ -31,7 +31,7 @@ const Footer = () => {
       </div>
 
       <div className={styles.bottom}>
-        <p>© 2025 İZKORT Tenis Akademi. Tüm hakları saklıdır.</p>
+        <p>© 2025 İZTENİS Akademi. Tüm hakları saklıdır.</p>
       </div>
     </footer>
   );
