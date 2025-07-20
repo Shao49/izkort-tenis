@@ -20,7 +20,7 @@ export default function Iletisim() {
             <div className={styles.infoBox}>
               <FaEnvelope className={styles.icon} />
               <h2>E-posta</h2>
-              <p>info@izkorttenis.com</p>
+              <p>iletisim@iztenisakademi.com</p>
             </div>
             <div className={styles.infoBox}>
               <FaMapMarkerAlt className={styles.icon} />

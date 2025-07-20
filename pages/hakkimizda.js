@@ -8,7 +8,7 @@ const Hakkimizda = () => {
       <Header />
       <section className={styles.heroSection}>
         <video autoPlay muted loop playsInline className={styles.videoBg}>
-          <source src="/izkort3.mp4" type="video/mp4" />
+          <source src="/iztenishakkimizda.mp4" type="video/mp4" />
         </video>
         <div className={styles.overlay}>
           <div className={styles.content}>

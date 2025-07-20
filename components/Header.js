@@ -12,8 +12,8 @@ const Header = () => {
         <div className={styles.logo}>
           <Link href="/" className={styles.logoLink}>
             <Image
-              src="/izkort_2.png"
-              alt="İZKORT Logo"
+              src="/iztenislogo1.png"
+              alt="İZTENİS Logo"
               width={500}
               height={500}
               priority
