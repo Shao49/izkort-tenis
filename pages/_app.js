@@ -1,11 +1,11 @@
 import '../styles/globals.css'
 import Header from '../components/Header'
 import Head from 'next/head'
+import Script from 'next/script'
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Header />
       <Head>
         <title>İztenis Akademi</title>
         <meta name="description" content="İzmir'in en köklü tenis akademisi" />
@@ -14,10 +14,29 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
+
+      {/* Google Analytics */}
+      <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-R7Y0H1T300"
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-R7Y0H1T300');
+          `,
+        }}
+      />
+
+      <Header />
       <Component {...pageProps} />
     </>
   )
 }
 
 export default MyApp
-

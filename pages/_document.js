@@ -9,18 +9,7 @@ export default function Document() {
           rel="stylesheet"
         />
 
-        {/* Google Analytics script */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-R7Y0H1T300"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-R7Y0H1T300');
-            `,
-          }}
-        />
+      
       </Head>
       <body>
         <Main />
