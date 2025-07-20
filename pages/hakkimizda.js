@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import styles from '../styles/hakkimizda.module.css'
@@ -5,6 +6,16 @@ import styles from '../styles/hakkimizda.module.css'
 const Hakkimizda = () => {
   return (
     <>
+      <Head>
+        <title>Hakkımızda - İztenis Akademi</title>
+        <meta
+          name="description"
+          content="İztenis Akademi olarak İzmir'de her yaş grubuna özel tenis eğitimleri sunuyor, spor kültürünü ve disiplini genç bireylere aşılıyoruz."
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.iztenisakademi.com/hakkimizda" />
+      </Head>
+
       <Header />
       <section className={styles.heroSection}>
         <video autoPlay muted loop playsInline className={styles.videoBg}>
@@ -12,7 +23,7 @@ const Hakkimizda = () => {
         </video>
         <div className={styles.overlay}>
           <div className={styles.content}>
-            <h2>Hakkımızda</h2>
+            <h1>Hakkımızda</h1>
             <p>
               İztenis Akademi olarak sporu yaşam tarzı haline getirmeyi hedefleyen bir anlayışla yola çıktık.
               Kurulduğumuz ilk günden itibaren yalnızca tenis öğretmek değil, aynı zamanda spor kültürünü,
